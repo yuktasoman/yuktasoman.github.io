@@ -8,14 +8,16 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
 </head>
 <body>
+  <div class="scroll-progress" aria-hidden="true"><span class="scroll-progress-bar"></span></div>
   <header class="site-header">
     <nav class="nav">
       <a href="#hero" class="nav-logo">YS</a>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -28,16 +30,47 @@
 
   <main>
     <section id="hero" class="hero">
-      <div class="hero-content reveal">
-        <div class="hero-avatar-wrap">
-          <img src="profile.jpg" alt="Yukta Soman" class="hero-avatar" />
+      <div class="hero-inner">
+        <div class="hero-left reveal">
+          <div class="hero-avatar-wrap">
+            <img src="profile.jpg" alt="Yukta Soman" class="hero-avatar" />
+          </div>
         </div>
-        <h1 class="hero-title">Yukta Soman</h1>
-        <p class="hero-tagline">Project Manager &amp; Delivery Lead</p>
-        <p class="hero-sub">MSc Project Management (Distinction) · Agile · Stakeholder Engagement · Quality Assurance</p>
-        <div class="hero-cta">
-          <a href="#contact" class="btn btn-primary">Get in touch</a>
-          <a href="#about" class="btn btn-ghost">Learn more</a>
+        <div class="hero-right">
+          <h1 class="hero-title reveal"><span class="hero-title-text">Yukta Soman</span></h1>
+          <p class="hero-tagline reveal">Project Manager &amp; Delivery Lead</p>
+          <div class="hero-pills reveal">
+            <span>MSc Distinction</span>
+            <span>Agile</span>
+            <span>QA</span>
+            <span>Stakeholder Engagement</span>
+          </div>
+          <div class="hero-cta reveal">
+            <a href="#contact" class="btn btn-primary">Get in touch</a>
+            <a href="#about" class="btn btn-ghost">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-info-cards">
+        <div class="info-card reveal">
+          <span class="info-card-icon">🎓</span>
+          <span class="info-card-value">MSc Distinction</span>
+          <span class="info-card-label">University of Southampton</span>
+        </div>
+        <div class="info-card reveal">
+          <span class="info-card-icon">🏆</span>
+          <span class="info-card-value">APM Winner 2025</span>
+          <span class="info-card-label">Wessex Region Challenge</span>
+        </div>
+        <div class="info-card reveal">
+          <span class="info-card-icon">📍</span>
+          <span class="info-card-value">UK Based</span>
+          <span class="info-card-label">Ready to relocate</span>
+        </div>
+        <div class="info-card reveal">
+          <span class="info-card-icon">⚡</span>
+          <span class="info-card-value">Agile &amp; QA</span>
+          <span class="info-card-label">Delivery &amp; Governance</span>
         </div>
       </div>
       <div class="hero-scroll" aria-hidden="true">
@@ -48,9 +81,9 @@
 
     <section id="about" class="section about">
       <div class="container">
-        <h2 class="section-title reveal">About me</h2>
+        <h2 class="section-title reveal" data-effect="scale"><span class="section-title-inner">About me</span></h2>
         <div class="about-grid reveal">
-          <div class="about-summary">
+          <div class="about-summary card-summary">
             <p class="lead">Early-career Project Manager with an <strong>MSc in Project Management (Distinction)</strong> from the University of Southampton, supported by a strong engineering background.</p>
             <p>Hands-on experience across delivery tracking, quality assurance, stakeholder coordination, and project governance within cross-functional and international teams. Comfortable working in <strong>Agile and hybrid</strong> environments, taking responsibility for actions through to completion and maintaining agreed quality, compliance, and stakeholder standards.</p>
             <p>Keen to continue developing as a project professional and seeking entry-level <strong>Project Manager</strong>, <strong>Project Coordinator</strong>, or <strong>PMO</strong> opportunities.</p>
@@ -78,7 +111,7 @@
 
     <section id="education" class="section education">
       <div class="container">
-        <h2 class="section-title reveal">Education</h2>
+        <h2 class="section-title reveal" data-effect="scale"><span class="section-title-inner">Education</span></h2>
         <div class="timeline">
           <article class="timeline-item reveal">
             <div class="timeline-marker"></div>
@@ -114,7 +147,7 @@
 
     <section id="experience" class="section experience">
       <div class="container">
-        <h2 class="section-title reveal">Work experience</h2>
+        <h2 class="section-title reveal" data-effect="scale"><span class="section-title-inner">Work experience</span></h2>
         <div class="jobs">
           <article class="job reveal">
             <div class="job-header">
@@ -172,7 +205,7 @@
 
     <section id="projects" class="section projects">
       <div class="container">
-        <h2 class="section-title reveal">Projects</h2>
+        <h2 class="section-title reveal" data-effect="scale"><span class="section-title-inner">Projects</span></h2>
         <div class="project-cards">
           <article class="project-card reveal">
             <h3>Kultura — APM Wessex Region PM Challenge</h3>
@@ -189,7 +222,7 @@
 
     <section id="achievements" class="section achievements">
       <div class="container">
-        <h2 class="section-title reveal">Achievements</h2>
+        <h2 class="section-title reveal" data-effect="scale"><span class="section-title-inner">Achievements</span></h2>
         <ul class="achievements-list reveal">
           <li><strong>Deans List Award</strong> — MSc Dissertation Excellence</li>
           <li><strong>Winner</strong> — APM Wessex Region Project Management Challenge 2025</li>
@@ -199,20 +232,21 @@
 
     <section id="contact" class="section contact">
       <div class="container">
-        <h2 class="section-title reveal">Get in touch</h2>
+        <h2 class="section-title reveal" data-effect="scale"><span class="section-title-inner">Get in touch</span></h2>
         <p class="contact-intro reveal">Open to Project Manager, Project Coordinator, and PMO opportunities in the UK.</p>
         <div class="contact-links reveal">
-          <a href="mailto:yuktasoman8@gmail.com" class="contact-link">
+          <a href="mailto:yuktasoman8@gmail.com" class="contact-link contact-link--email">
             <span class="contact-label">Email</span>
             <span class="contact-value">yuktasoman8@gmail.com</span>
           </a>
-          <a href="tel:+447721953443" class="contact-link">
+          <a href="tel:+447721953443" class="contact-link contact-link--phone">
             <span class="contact-label">Phone</span>
             <span class="contact-value">+44 7721 953443</span>
           </a>
-          <a href="https://www.linkedin.com/in/yuktasoman" target="_blank" rel="noopener noreferrer" class="contact-link">
+          <a href="https://www.linkedin.com/in/yuktasoman" target="_blank" rel="noopener noreferrer" class="contact-link contact-link--linkedin">
             <span class="contact-label">LinkedIn</span>
             <span class="contact-value">linkedin.com/in/yuktasoman</span>
+            <span class="contact-hover-msg">Let's connect on LinkedIn →</span>
           </a>
         </div>
       </div>
@@ -254,6 +288,15 @@
       }, { rootMargin: '0px 0px -60px 0px', threshold: 0.1 });
 
       reveals.forEach(function(el) { observer.observe(el); });
+
+      var progressBar = document.querySelector('.scroll-progress-bar');
+      if (progressBar) {
+        window.addEventListener('scroll', function() {
+          var winScroll = document.documentElement.scrollTop;
+          var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+          progressBar.style.width = (height > 0 ? (winScroll / height) * 100 : 0) + '%';
+        });
+      }
     })();
   </script>
 </body>
