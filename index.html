@@ -110,6 +110,9 @@ nav.top .hire{flex:none;text-decoration:none;font-weight:600;font-size:15px;padd
 /* split words */
 .sw .w{display:inline-block;opacity:0;filter:blur(10px);transform:translateY(40%);transition:opacity .9s,filter .9s,transform .9s cubic-bezier(.2,.8,.2,1)}
 .sw.in .w{opacity:1;filter:none;transform:none}
+/* Cross-browser fix (Safari/iOS): gradient text is painted on each split headline word, not the parent */
+.sw .grad{background:none;-webkit-background-clip:border-box;background-clip:border-box;color:var(--astra);-webkit-text-fill-color:currentColor}
+.sw .grad .w{background:linear-gradient(100deg,var(--astra) 0%,var(--astra2) 100%);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;padding-bottom:.08em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
 .rv{opacity:0;transform:translateY(40px) scale(.98);transition:opacity 1s ease,transform 1s cubic-bezier(.2,.8,.2,1)}
 .rv.in{opacity:1;transform:none}
 /* stats */
