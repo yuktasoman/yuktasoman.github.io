@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Selected extract from the Kultura Project Assurance Checklist</title>
+  <desc id="desc">A clean portfolio extract showing assurance questions, status and evidence from Yukta Soman's Kultura master's project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8f7fc"/><stop offset="1" stop-color="#eef1fa"/></linearGradient>
+    <linearGradient id="head" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5f3dc4"/><stop offset="1" stop-color="#3478a7"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#25304d" flood-opacity=".16"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1515" cy="60" r="250" fill="#9b6cff" opacity=".09"/>
+  <circle cx="50" cy="850" r="220" fill="#68d8ff" opacity=".10"/>
+
+  <text x="78" y="82" fill="#6042ba" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">PROJECT MANAGEMENT WORKING DOCUMENT</text>
+  <text x="78" y="142" fill="#1d2337" font-family="Arial, sans-serif" font-size="46" font-weight="700">Kultura · Project Assurance Checklist</text>
+  <text x="78" y="181" fill="#687087" font-family="Arial, sans-serif" font-size="21">Selected extract · MSc Project Management / APM Challenge · Quality Assurance Lead</text>
+
+  <g filter="url(#shadow)">
+    <rect x="78" y="226" width="1444" height="578" rx="20" fill="#ffffff"/>
+    <path d="M98 226h1404a20 20 0 0 1 20 20v64H78v-64a20 20 0 0 1 20-20z" fill="url(#head)"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#fff">
+    <text x="108" y="278">ASSURANCE AREA</text>
+    <text x="348" y="278">CHECK</text>
+    <text x="1022" y="278">STATUS</text>
+    <text x="1160" y="278">EVIDENCE / COMMENT</text>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="18">
+    <g fill="#fff"><rect x="78" y="310" width="1444" height="70"/><rect x="78" y="450" width="1444" height="70"/><rect x="78" y="590" width="1444" height="70"/><rect x="78" y="730" width="1444" height="74"/></g>
+    <g fill="#f6f7fb"><rect x="78" y="380" width="1444" height="70"/><rect x="78" y="520" width="1444" height="70"/><rect x="78" y="660" width="1444" height="70"/></g>
+    <g stroke="#dfe3ee" stroke-width="1"><path d="M318 310v494M992 310v494M1130 310v494"/><path d="M78 380h1444M78 450h1444M78 520h1444M78 590h1444M78 660h1444M78 730h1444"/></g>
+
+    <g fill="#273047" font-weight="700">
+      <text x="108" y="352">Scope</text><text x="108" y="422">Solution</text><text x="108" y="492">Stakeholders</text><text x="108" y="562">Governance</text><text x="108" y="632">Plan</text><text x="108" y="702">Risks &amp; issues</text><text x="108" y="772">Reporting</text>
+    </g>
+    <g fill="#3c455c">
+      <text x="348" y="352">Are the objectives clear and well defined?</text>
+      <text x="348" y="422">Is the proposed solution documented and agreed?</text>
+      <text x="348" y="492">Are key stakeholders identified and categorised?</text>
+      <text x="348" y="562">Is the governance approach defined and in place?</text>
+      <text x="348" y="632">Is there an agreed project plan in place?</text>
+      <text x="348" y="702">Are key risks regularly identified and understood?</text>
+      <text x="348" y="772">Are regular high-quality reports completed?</text>
+    </g>
+    <g font-weight="700" text-anchor="middle">
+      <rect x="1024" y="327" width="74" height="34" rx="17" fill="#daf7e8"/><text x="1061" y="350" fill="#147a4a">YES</text>
+      <rect x="1008" y="397" width="106" height="34" rx="17" fill="#fff0c7"/><text x="1061" y="420" fill="#956400">PARTIAL</text>
+      <rect x="1024" y="467" width="74" height="34" rx="17" fill="#daf7e8"/><text x="1061" y="490" fill="#147a4a">YES</text>
+      <rect x="1024" y="537" width="74" height="34" rx="17" fill="#daf7e8"/><text x="1061" y="560" fill="#147a4a">YES</text>
+      <rect x="1024" y="607" width="74" height="34" rx="17" fill="#daf7e8"/><text x="1061" y="630" fill="#147a4a">YES</text>
+      <rect x="1024" y="677" width="74" height="34" rx="17" fill="#daf7e8"/><text x="1061" y="700" fill="#147a4a">YES</text>
+      <rect x="1024" y="747" width="74" height="34" rx="17" fill="#fde1e1"/><text x="1061" y="770" fill="#a33131">NO</text>
+    </g>
+    <g fill="#596177" font-size="16">
+      <text x="1160" y="345">Promote cultural heritage.</text>
+      <text x="1160" y="415">Marketplace and community</text><text x="1160" y="437">model documented.</text>
+      <text x="1160" y="485">Businesses, influencers and</text><text x="1160" y="507">communities mapped.</text>
+      <text x="1160" y="555">Regular leadership check-ins</text><text x="1160" y="577">supported alignment.</text>
+      <text x="1160" y="625">Milestones covered research</text><text x="1160" y="647">through launch.</text>
+      <text x="1160" y="695">Reviewed with mitigation actions.</text>
+      <text x="1160" y="765">Produced by phase; greater</text><text x="1160" y="787">consistency required.</text>
+    </g>
+  </g>
+  <text x="78" y="855" fill="#687087" font-family="Arial, sans-serif" font-size="18">Source: Kultura Final Project Report · Selected portfolio extract</text>
+  <text x="1522" y="855" text-anchor="end" fill="#6042ba" font-family="Arial, sans-serif" font-size="18" font-weight="700">YUKTA SOMAN · QUALITY ASSURANCE</text>
+</svg>
